@@ -1,0 +1,4 @@
+#pragma once
+
+#define NAUGHT_STRINGIFY_VALUE_(a) #a
+#define NAUGHT_STRINGIFY_VALUE(a) NAUGHT_STRINGIFY_VALUE_(a)

@@ -1,0 +1,7 @@
+#pragma once
+
+/* Modifying this values requires changes in "T4240QDS_init.c" */
+#define NAUGHT_CONFIG_TLB_CCSRBAR_ADDR 0xFE000000ULL
+
+#define NAUGHT_CONFIG_SHARED_DDR_ADDR_START 0x00000000ULL
+#define NAUGHT_CONFIG_SHARED_DDR_ADDR_END 0x00000000ULL
